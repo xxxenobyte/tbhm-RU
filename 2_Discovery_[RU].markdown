@@ -15,7 +15,7 @@
 - Новые версии мобильного приложения
 - Поиск головной компании по товарным знакам или политике конфиденциальности
 
-## Инструменты: Recon-ng script (enumall.sh)
+## Инструменты: recon-ng script (enumall.sh)
 https://github.com/jhaddix/domain
 
 ## LMGTFY: Let Me GOOGLE That For You
@@ -30,7 +30,7 @@ https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Facebook
 
 - отдельные веб-приложения
 - посторонние сервисы
-- у Facebook была Jenkins Script console, к которой можно было подключиться без авторизации (*прим. переводчика*: [пост об этом](http://blog.dewhurstsecurity.com/2014/12/09/how-i-hacked-facebook.html))
+- у Facebook была Jenkins Script console, к которой можно было подключиться без авторизации (*прим. переводчика*: [пост об этой уязвимости](http://blog.dewhurstsecurity.com/2014/12/09/how-i-hacked-facebook.html))
 - IIS.net имел открытый rdp, что позволяло выполнить MS12_020
 
 *пример команды nmap*:
