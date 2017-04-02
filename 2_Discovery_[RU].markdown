@@ -13,7 +13,7 @@
 - Новые версии мобильного приложения
 - Поиск головной компании по товарным знакам или политике конфиденциальности
 
-## Инструменты: recon-ng script (enumall.sh)
+## Инструменты: recon-ng script (enumall.py)
 https://github.com/jhaddix/domain
 
 ## LMGTFY: Let Me GOOGLE That For You
@@ -34,8 +34,10 @@ https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Facebook
 *пример команды nmap*:
 ``nmap -sS -A -PN -p- --script=http-title dontscanme.bro``
 
--sS       - посылать только syn и считать порт открытым если получен syn_ack 
--A        - запустить все возможные тесты одновременно
--PN       - расценивать все хосты как работающие
--p-       - сканирование всех портов
---script= - сканирование с использование скриптов, в данном случае [http-title](https://nmap.org/nsedoc/scripts/http-title.html)
+ключ | описание
+--- | ---
+sS | посылать только syn и считать порт открытым если получен syn_ack 
+A | запустить все возможные тесты одновременно
+PN | расценивать все хосты как работающие
+p- | сканирование всех портов
+script= | сканирование с использование скриптов, в данном случае [http-title](https://nmap.org/nsedoc/scripts/http-title.html)
